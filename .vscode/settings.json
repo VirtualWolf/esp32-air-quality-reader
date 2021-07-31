@@ -1,0 +1,12 @@
+{
+    "python.linting.enabled": true,
+    "python.jediEnabled": false,
+
+    // Loaded Stubs:  esp32-micropython-1.15.0 
+    "python.autoComplete.extraPaths": [".micropy/BradenM-micropy-stubs-371f66d/frozen", ".micropy/BradenM-micropy-stubs-4f5a52a/frozen", ".micropy/BradenM-micropy-stubs-371f66d/stubs", ".micropy/esp32-air-quality-sensor"],
+    "python.autoComplete.typeshedPaths":  [".micropy/BradenM-micropy-stubs-371f66d/frozen", ".micropy/BradenM-micropy-stubs-4f5a52a/frozen", ".micropy/BradenM-micropy-stubs-371f66d/stubs", ".micropy/esp32-air-quality-sensor"],
+    "python.analysis.typeshedPaths":  [".micropy/BradenM-micropy-stubs-371f66d/frozen", ".micropy/BradenM-micropy-stubs-4f5a52a/frozen", ".micropy/BradenM-micropy-stubs-371f66d/stubs", ".micropy/esp32-air-quality-sensor"],
+
+    "python.linting.pylintEnabled": true,
+    "python.languageServer": "Microsoft"
+}
