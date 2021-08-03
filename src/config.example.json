@@ -1,0 +1,6 @@
+{
+    "ssid": "Network name",
+    "ssid_password": "Network password",
+    "rx_pin": 16,
+    "api_key": "abc123"
+}
