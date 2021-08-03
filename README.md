@@ -2,6 +2,8 @@
 
 An application to read data from a [Plantower PMS5003](http://plantower.com/en/content/?108.html) air quality sensor, written for use with [MicroPython on an ESP32 microcontroller](https://micropython.org). It has a webserver to return the data in JSON format, and `/html` can be hit to return a pretty(ish) HTML version.
 
+The sensor data extraction code is based on Adafruit's [old Python code](https://learn.adafruit.com/pm25-air-quality-sensor/python-and-circuitpython) from before they turned it into [a library](https://github.com/adafruit/Adafruit_CircuitPython_PM25/blob/main/adafruit_pm25/__init__.py).
+
 ## Helpful tools
 * [micropy-cli](https://github.com/BradenM/micropy-cli)
 * [Pymakr](https://marketplace.visualstudio.com/items?itemName=pycom.Pymakr)
